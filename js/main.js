@@ -91,13 +91,14 @@ elForm.addEventListener('submit' , function(evt){
          let newParagraph = document.createElement('p');
          let newLink = document.createElement('a');
 
-         newItem.textContent = item.name
-         newHeading.textContent = item.relationship
-         newParagraph.textContent = item.phone
+         newItem.textContent = "Name : " + item.name
+         newHeading.textContent = "Relationship : " + item.relationship
+         newParagraph.textContent = "Phone :  " +  item.phone
          newItem.setAttribute('class' , 'user__item fw-bold text-light fs-4 border bg-primary')
-         newHeading.setAttribute('class' , 'cardHeading  fw-bold text-light fs-4 border bg-primary')
+         newHeading.setAttribute('class', 'cardHeading  fw-bold text-light fs-4 border bg-primary')
          newParagraph.setAttribute('class' , 'cardParagrap fw-bold text-light fs-4 border bg-primary')
-         newLink.setAttribute('class' , 'cardLink border bg-primary')
+         newLink.setAttribute('class' , 'cardLink border  bg-primary')
+       
          elList.appendChild(newItem)
          elList.appendChild(newHeading)
          elList.appendChild(newParagraph)

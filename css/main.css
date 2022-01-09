@@ -1,3 +1,7 @@
+body{
+    background-color: cyan;
+}
+
 .user__item{
     list-style: none;
 }
@@ -13,4 +17,16 @@
 
 .cardHeading{
     margin: 0 !important;
+}
+
+.input{
+    min-height: 90px !important;
+}
+
+.button{
+    min-height: 90px !important;
+}
+
+.card{
+    min-height: 407px !important;
 }
