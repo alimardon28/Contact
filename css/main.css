@@ -5,3 +5,12 @@
 .button{
     text-shadow: 0px 0px 20px #fff , 0px 0px 20px #fff;
 }
+
+.list{
+    list-style: none;
+    padding: 0 !important;
+}
+
+.cardHeading{
+    margin: 0 !important;
+}
